@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    //program porovna ktore z dvoch cisel je vacsie mensie alebo ci sa cisla rovnaju 
+		int a = 22; // nastavenie cisel 
+        int b = 20;
+        if (a < b) {                        //podmienka ak a je mesnie ako b vypise cisla od a po b s krokom 1
+            for(int i = a; i <= b; i++){
+                System.out.print(i+" ");
+            }
+        }
+        if (a > b ) {                       //podmienka ak a je mesnie ako b vypise cisla od b po a s krokom 1
+            for(int i = a; i >= b; i--){
+                System.out.print(i +" ");
+            }
+        }
+        if (a == b){                        //ak je v premennej a rovnake cislo ako v premennej b vypise text
+            System.out.print("cisla sa rovnaju");
+        }
+    }
+		
+}
