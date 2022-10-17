@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    //program vypise vsetky trojciferne cisla delitelne 11 vzostupne
+	    
+		int number = 110;                   // najmensie trojciferne cislo delitelne 11
+        while(number <= 999){               // cyklus ktrory prechadza vsetky cisla od 110 po 999
+            if(number % 11 == 0){           // podmienka ktora sa splni ak je zvysok po deleni jedenastkou 0 
+                System.out.println(number); // vypise cislo na konzolu ak plati podmienka 
+            }
+            number ++; // k premennej number pripocita jednotku 
+        }
+	}
+}
