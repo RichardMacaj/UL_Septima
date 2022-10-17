@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+		//program zisti pocet delitelov zadaneho cisla 
+		int number = 10; // zadane cislo 
+        int counter = 0; // pomocna premenna 
+        for (int i = 1;i <= number; i++) {
+            if (number % i == 0) {
+                counter++; 
+            }
+
+        }
+        System.out.println(counter);
+	}
+		
+}
